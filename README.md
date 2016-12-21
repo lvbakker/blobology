@@ -77,3 +77,17 @@ the commands that were used to remove contaminants from the *Caenorhabditis* sp.
 
 Your own data set will require you to devise your own positive (to keep contigs, and reads, of interest) and negative (to discard 
 contigs and reads belonging to contaminants) filters.
+
+
+makeblobplot_LB_2.0.R
+---------------------
+If you want to use the extensive modifications to the blobology toolset R script (makeblobplot.R), use the new version makeblobplot_LB_2.0.R
+changes made in comparison to the original R script
+- additional script argument: sequence length cutoff & plot title
+- legend now includes the number of assigned sequences in a bin.
+- added colours to the plot
+- added a new bin "below threshold"
+- apply sequence cutoff steps before nr-of-colours cutoff
+
+
+
